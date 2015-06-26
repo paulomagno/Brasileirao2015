@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Classificação Brasileirão 2015</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="classificacao">Equipe</string>
+    <string name="pontos">P</string>
+    <string name="jogos">J</string>
+    <string name="vitorias">V</string>
+    <string name="empates">E</string>
+    <string name="derrotas">D</string>
+    <string name="golsPro">GP</string>
+    <string name="golsContra">GC</string>
+    <string name="saldoGols">SG</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_tela_splash"> Brasileirão 2015</string>
+</resources>

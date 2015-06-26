@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imagem"
+        android:layout_width="30dp"
+        android:layout_height="35dp"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:id="@+id/nome"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/pontos"
+        android:textSize="20sp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/jogos"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/vitorias"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:gravity="center"/>
+
+    <TextView
+        android:gravity="right"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:textAlignment="center"
+        android:id="@+id/empates"
+        android:textSize="20sp" />
+
+    <TextView
+        android:gravity="right"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/derrotas"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:gravity="right"
+        android:layout_width="40dp"
+        android:layout_height="25dp"
+        android:id="@+id/golsPro"
+        android:textSize="20sp"/>
+
+
+    <TextView
+        android:gravity="right"
+        android:layout_width="35dp"
+        android:layout_height="25dp"
+        android:id="@+id/golsContra"
+        android:textSize="20sp"/>
+
+
+    <TextView
+        android:gravity="right"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/saldoGols"
+        android:textSize="20sp" />
+
+</LinearLayout>
